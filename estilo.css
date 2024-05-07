@@ -1,0 +1,119 @@
+/* Estilos base para el cuerpo del documento */
+body {
+    text-align: center;
+    background-image: url('imagen1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    /* Se agregan estilos para mejorar la legibilidad */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+
+  /* Estilos para las tablas */
+  table {
+    width: 30%;
+    height: 200px;
+    margin: 1 auto;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #ae009f;
+    color: white;
+  }
+
+
+  ul li {
+    float: left;
+  }
+  
+  ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  section {
+    text-align: center; 
+  }
+  
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.img-fluid{
+  width: 500%; 
+  max-width: 400px;
+}
+
+.img{
+  width: 500%; 
+  max-width: 400px;
+}
+
+
+table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #f4eef3;
+    box-shadow: 0 2px 3px #ff42aa;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #000000;
+}
+th {
+    background-color: #ff48ce;
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.price-container {
+  display: inline-block;
+  position: relative;
+  background: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.new-price {
+  font-size: 24px;
+  color: rgb(25, 190, 255);
+  font-weight: bold;
+}
+
+.discount-tag {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+.old-price {
+  font-size: 16px;
+  text-decoration: line-through;
+}
